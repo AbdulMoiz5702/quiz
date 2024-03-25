@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
       title: 'Vocabulary Quiz',
       theme: ThemeData(
         appBarTheme:const AppBarTheme(
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.white24,
           elevation: 0,
         ),
-        scaffoldBackgroundColor: Colors.purpleAccent,
-        primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.white54,
+        primarySwatch: Colors.blueGrey,
       ),
       home: SplashScreen(),
     );
